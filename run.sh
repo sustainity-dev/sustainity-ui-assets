@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION="0.1.0"
+VERSION="0.1.1"
 
 function usage() {
     echo 'Commands:'
@@ -9,7 +9,7 @@ function usage() {
 }
 
 function run_pack_assets() {
-    ZIPFILE="consumers_assets-$VERSION.zip"
+    ZIPFILE="sustainity_assets-$VERSION.zip"
     rm -f $ZIPFILE
     zip -qr $ZIPFILE images
 }
